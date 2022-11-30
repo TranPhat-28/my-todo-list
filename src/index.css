@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  height: 100vh;
+}
+
+.navbar-brand{
+  font-family: Carter One;
+}
+
+form{
+  width: 450px;
+}
+
+.item-light{
+  background-color: #f8f9fa;
+}
+
+.item-light:hover{
+  box-shadow: 0 0 20px 5px grey;
+  border-radius: 10px;
+}
+
+.item-dark{
+  background-color: black;
+}
+
+.item-dark:hover{
+  box-shadow: 0 0 20px 5px white;
+  border-radius: 10px;
+}
+
+.list-group-item{
+  transition-duration: .2s;
+}
+
+.list-group-item:hover{
+  cursor: pointer;
+}
